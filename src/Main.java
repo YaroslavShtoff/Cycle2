@@ -83,9 +83,9 @@ public class Main {
             totalTime2 = totalTime2 + 1;
             if (totalTime2 <= 108) {
                 totalTime2 = totalTime2 + 1;
-                totalSum1 = salary3 + salary3 * 7 / 100;
+                totalSum2 = salary3 + salary3 * 7 / 100;
                 if (totalTime2 % 6 == 0) {
-                    System.out.println("Месяц " + totalTime2 + ", счет в банке: " + totalSum1);
+                    System.out.println("Месяц " + totalTime2 + ", счет в банке: " + totalSum2);
                 }
             }
         }
